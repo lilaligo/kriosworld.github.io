@@ -1,0 +1,195 @@
+<html lang="en">
+
+<head>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Template Styles-->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Animations Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eon Single Page Project Site 1.2</title>
+</head>
+
+<body style="position: relative;" data-spy="scroll" data-target="#navbar">
+    <!--Navbar-->
+    <nav id="navbar" class="animated fadeInDown navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"><b>Krios</b> Wrld</a>
+
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+
+
+            </ul>
+        </div>
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home"><i class="fas fa-home"></i>
+                    Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i>About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#faq"><i class="fas fa-question-circle"></i>FAQ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="home" class="section secone">
+
+        <br><br><br><br><br><br>
+        <h1 class="animated fadeInUp" style="font-size: 3.3em; font-weight: 500">KriosWrld</h1>
+        <p class="animated fadeIn" style="font-weight: 300; max-width: 20em; font-size: 1.1em">Pravý Minecarft pvp svět.</p>
+        <button onclick="goabout()" type="button" class="btn btn-primary animated zoomIn">Prohlédnout</button>
+<a href="#about" style="display: none;" id="aboutel"></a>
+<a href="#faq" style="display: none;" id="faqel"></a>
+        <br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+    <div id="about" class="section sectwo animated fadeInUp">
+
+
+        <center>
+            <h2 style="font-size: 2.7em; font-weight: 300">O nás</h2>
+        </center>
+        <br><br>
+        <center>
+            <div style="width: 95%" class="row">
+                <div class="col-sm">
+                    <p style="font-weight: 300; font-size: 1.3em">Jsme sme CZ/SK pvp server, který se snaží zabavit hráče během volného času!
+                      Náš server je jak pro Warez tak i pro Originál hráče. Máme skvělou komunitu... teda pokud někoho nenaštveš :D..
+                      Náš server je dělán s láskou, kreativitou. Updaty jsou zde na denním pořádku.. Server je jak pro Warez hráče, tak i pro originálky.
+                      Server verze je 1.8.9. - 1.16.5.</p>.
+                    <button onclick="gofaq()" type="button" class="btn btn-primary">FAQ</button>
+                </div>
+                <div class="col-sm">
+                    <img style="width: 100%; border-radius: 15px;" class="z-depth-2" src="assets/5.png" alt="">
+                </div>
+            </div>
+        </center>
+        <br><br><br><br>
+
+    </div>
+
+    <div id="faq" class="section secthree animated fadeInDown">
+
+
+        <center>
+            <h2 style="font-size: 2.7em; font-weight: 300">Časté dotazy</h2>
+        </center>
+        <br><br>
+        <center>
+
+            <div style="width: 90%" class="row">
+                <div class="col-sm">
+
+                    <h4><b>Kde můžu hlasovat?</b></h4>
+                    <p>Hlasovat pro server můžeš zde: https://craftlist.org/krioswrld?_fid=b8yf</p>
+
+                    <br><br>
+                    <h4><b>Kdo je ve vašem A-Teamu?</b></h4>
+                    <p>Jsou zde:
+                      lilaligo - Onwer
+                      Voxtiik - H.Builder
+                      Koomaan - H.Helper
+                      Petr Fořt - Technik
+                      voxy_games - Helper
+                      TADAMAN - Helper,
+                      zuzuzuk - Tester </p>
+
+
+                </div>
+                <div class="col-sm">
+
+                    <h4><b>Jaké minihry nabízíte?</b></h4>
+                    <p>Máme zde: Kitbattle, RabbitsVSPenguins, Parkour Tryhard, Quick bedwars a další!</p>
+                    <br><br>
+                    <h4><b>Můžu si zde koupit premium rank?</b></h4>
+                    <p>Ano můžeš! Nákupem podpoříš server v pokračování,ale není to povinné!</p>
+
+
+                </div>
+
+            </div>
+
+
+
+        </center>
+        <br><br><br><br><br><br>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3 animated fadeInUp">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div style="max-height: 100px;" class="mb-5 flex-center">
+
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#"> KriosWrld</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js">
+    </script>
+    <!-- Template Script-->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
